@@ -8,10 +8,10 @@
         private $bonus_ataque;
         private $arma;
 
-        public function Soldado($tipo, $escudo, $bônus_ataque = 0, $arma = null) {
+        public function Soldado($tipo, $escudo, $bonus_ataque = 0, $arma = null) {
             $this->tipo = $tipo;
             $this->escudo = $escudo;
-            $this->bônus_ataque = $bônus_ataque;
+            $this->bonus_ataque = $bonus_ataque;
             $this->arma = $arma;
         }
 
